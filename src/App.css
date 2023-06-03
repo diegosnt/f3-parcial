@@ -49,18 +49,21 @@ input[type="text"]:focus {
   color: black;
 }
 
-
 .button {
   width: 100%;
   outline: none;
   background-color: mediumblue;
-
 }
-
-/* .read-the-docs {
-  color: #888;
-} */
 
 .error {
   color: red;
+}
+
+.color {
+  width: 90%;
+  height: 35px;
+  background-color: yellowgreen;
+  color: black;
+  border-radius: 10px;
+  font-weight: bold;
 }

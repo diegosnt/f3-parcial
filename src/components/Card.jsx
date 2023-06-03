@@ -1,8 +1,9 @@
 export default function Card(props) {
   return (
     <div className="card">
-      <p>Nombre: {props.nombre}</p>
-      <p>Color: {props.color}</p>
+      <p>Hola {props.nombre}!</p>
+      <p>Sabemos que tu color favorito es:</p> 
+      <span className="color"> {props.color}</span>
     </div>
   );
 }
